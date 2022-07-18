@@ -1,0 +1,39 @@
+{
+    "name": "mc2d20",
+    "title": "Mutant Chronicles 2d20",
+    "description": "The unofficial !Achtung Cthulhu 2d20 conversion to Mutant Chronicles System for FoundryVTT",
+    "version": "0.03",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9",
+    "templateVersion": 1,
+    "author": "HappySteve",
+    "scripts": [],
+    "esmodules": ["module/ac2d20.mjs"],
+    "styles": ["css/ac2d20.css"],
+    "packs": [{
+			"name": "skills",
+			"label": "Skills",
+			"system": "ac2d20",
+			"path": "./packs/skills.db",
+			"entity": "Item"
+		},
+    {
+      "name": "ac-2d20-macros",
+      "label": "AC 2d20 Macros",
+      "system": "ac2d20",
+      "path": "./packs/ac-2d20-macros.db",
+      "entity": "Macro"
+    }],
+    "languages": [{
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }],
+    "socket": true,
+    "gridDistance": 1,
+    "gridUnits": "m",
+    "url": "https://github.com/PoProstuPawel/mc2d20",    
+    "manifest": "https://github.com/PoProstuPawel/mc2d20/blob/main/system.json",    
+   
+  }
+  
