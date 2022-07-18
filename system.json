@@ -1,0 +1,39 @@
+{
+    "name": "ac2d20",
+    "title": "Achtung Cthulhu 2d20",
+    "description": "The unofficial !Achtung Cthulhu 2d20 System for FoundryVTT",
+    "version": "1.0.5",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9",
+    "templateVersion": 1,
+    "author": "HappySteve",
+    "scripts": [],
+    "esmodules": ["module/ac2d20.mjs"],
+    "styles": ["css/ac2d20.css"],
+    "packs": [{
+			"name": "skills",
+			"label": "Skills",
+			"system": "ac2d20",
+			"path": "./packs/skills.db",
+			"entity": "Item"
+		},
+    {
+      "name": "ac-2d20-macros",
+      "label": "AC 2d20 Macros",
+      "system": "ac2d20",
+      "path": "./packs/ac-2d20-macros.db",
+      "entity": "Macro"
+    }],
+    "languages": [{
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }],
+    "socket": true,
+    "gridDistance": 1,
+    "gridUnits": "m",
+    "url": "https://github.com/superseva/ac2d20",    
+    "manifest": "https://github.com/superseva/ac2d20/releases/latest/download/system.json",    
+    "download": "https://github.com/superseva/ac2d20/releases/download/v1.0.5/ac2d20.zip"
+  }
+  
